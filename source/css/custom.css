@@ -1,0 +1,25 @@
+/* Article pages only: hide sidebar and use single-column layout */
+.trm-article-page .trm-content-start .container .row>.trm-page-sidebar {
+    display: none !important;
+}
+
+.trm-article-page .trm-content-start .container .row>.trm-page-content {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.trm-article-page .trm-content-start .container .row>.trm-page-content .trm-content {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.trm-article-page .trm-banner .col-lg-8 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+.trm-article-page .trm-banner-text {
+    text-align: center;
+}

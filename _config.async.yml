@@ -74,17 +74,17 @@ reward:
     - name: QQ
       path: https://mp-8b005489-7724-4f8c-afdd-30192ff4f7ae.cdn.bspapp.com/cloudstorage/69fb1903-d0dc-4169-9a02-1e76ec8e7761.jpg
 
+
 creative_commons:
   license: by-nc-sa
   language: deed.zh-hans
   post: true
   clipboard: true
 
-swup: true
-
 toc:
   enable: true
-  list_number: false
+  list_number: true
+  post_title: false
   max_depth: 3
   min_depth: 1
 
@@ -97,9 +97,11 @@ post_pagination:
   type: small
 
 cdn:
+  css:
+    - /css/custom.css
   js:
     head:
-    base: [demo.js]
+    base: [demo.js, /js/custom-page-type.js]
 
 assets:
   third_party_provider: https://npm.elemecdn.com
@@ -157,3 +159,8 @@ banner:
 		avatar: true
 		delayRange: 5000
 		speed: 80
+
+categorie_card:
+  enable: true
+  len: 3
+  list: ["JavaScript", "CSS", "HTML"]

@@ -105,3 +105,12 @@ theme: async
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+katex:
+  copy_tex: true
+  global: true
+  options: {}
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
